@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#BAC3FF</color>
+    <color name="on_primary">#08218A</color>
+    <color name="primary_container">#293CA0</color>
+    <color name="on_primary_container">#DEE0FF</color>
+    <color name="secondary_container">#1F4E4C</color>
+    <color name="on_secondary_container">#CCE8E6</color>
+    <color name="tertiary_container">#633B48</color>
+    <color name="on_tertiary_container">#FFD8E4</color>
+    <color name="background">#121318</color>
+    <color name="surface">#1E1F26</color>
+</resources>

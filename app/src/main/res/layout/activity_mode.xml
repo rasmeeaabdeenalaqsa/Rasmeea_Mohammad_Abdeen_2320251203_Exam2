@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryContainer"
+        app:titleTextColor="?attr/colorOnPrimaryContainer"
+        app:navigationIconTint="?attr/colorOnPrimaryContainer" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSetMode"
+        style="@style/Widget.Material3.Button.TonalButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="16dp"
+        android:text="Set Mode"
+        app:icon="@drawable/ic_mode" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@android:color/transparent"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorHeight="3dp"
+        app:tabTextAppearance="@style/TextAppearance.Material3.TitleSmall" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
